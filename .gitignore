@@ -1,1 +1,5 @@
 ./module/api_key.py
+./module/__pycache__
+./test/*
+./test_set/*
+./geckodriver.log
