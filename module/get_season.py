@@ -3,25 +3,25 @@ import re
 debug =0
 
 examples="""
-[AnimeRG] Boku No Hero Academia - 96 (1080P 10bit) (Season 5 - 08).mkv
-[Judas] Digimon Adventure (2020) - S01E49 [1080p][HEVC x265 10bit][Multi-Subs] (Weekly)
-1 [EMBER] Mairimashita! Iruma-kun S02E06 [1080p] [HEVC WEBRip] (Welcome to Demon School! Iruma-kun 2nd Season)
-[SSA] One Piece - 975 [480p].mkv
-[SSA] Digimon Adventure (2020) - 49 [480p].mkv
-[SSA] One Piece - 975 [720p].mkv
-2 [Serenae] Tropical-Rouge! Precure - 13 (1080p).mkv
-1 [Serenae] Tropical-Rouge! Precure - 13 (720p).mkv
-[SSA] Digimon Adventure (2020) - 49 [720p].mkv
-4 [Judas] One Piece - 975 [1080p][HEVC x265 10bit][Multi-Subs] (Weekly)
+[Fansub] Boku No Hero Academia - 96 (1080P 10bit) (Season 5 - 08).mkv
+[Fansub] Digimon Adventure (2020) - S01E49 [1080p][HEVC x265 10bit][Multi-Subs] (Weekly)
+1 [Fansub] Mairimashita! Iruma-kun S02E06 [1080p] [HEVC WEBRip] (Welcome to Demon School! Iruma-kun 2nd Season)
+[Fansub] One Piece - 975 [480p].mkv
+[Fansub] Digimon Adventure (2020) - 49 [480p].mkv
+[Fansub] One Piece - 975 [720p].mkv
+2 [Fansub] Tropical-Rouge! Precure - 13 (1080p).mkv
+1 [Fansub] Tropical-Rouge! Precure - 13 (720p).mkv
+[Fansub] Digimon Adventure (2020) - 49 [720p].mkv
+4 [Fansub] One Piece - 975 [1080p][HEVC x265 10bit][Multi-Subs] (Weekly)
 Digimon.Adventure.2020.S01E49.1080p.WEBRip.x264-Rapta
-[ASW] One Piece - 975 [1080p HEVC x265 10Bit][AAC]
-[SSA] One Piece - 975 [1080p].mkv
-[ASW] Digimon Adventure (2020) - 49 [1080p HEVC x265 10Bit][AAC]
-[SSA] Digimon Adventure (2020) - 49 [1080p].mkv
-[SSA] Tropical-Rouge! Precure - 13 [480p].mkv
-[-KS-] D4DJ First Mix [1080p] [Tri Audio] [VRV] [V2]
-[-KS-] D4DJ First Mix [720p] [Tri Audio] [VRV] [V2]
-[SSA] Tropical-Rouge! Precure - 13 [720p].mkv
+One Piece - 975 [1080p HEVC x265 10Bit][AAC]
+One Piece - 975 [1080p].mkv
+Digimon Adventure (2020) - 49 [1080p HEVC x265 10Bit][AAC]
+Digimon Adventure (2020) - 49 [1080p].mkv
+Tropical-Rouge! Precure - 13 [480p].mkv
+D4DJ First Mix [1080p] [Tri Audio] [VRV] [V2]
+D4DJ First Mix [720p] [Tri Audio] [VRV] [V2]
+Tropical-Rouge! Precure - 13 [720p].mkv
 Boku no Hero Academia (Saison 4) - 20 VOSTFR.mp4
 Boku no Hero Academia (Season 4) - 20 VOSTFR.mp4
 Boku no Hero Academia (Saison-4) - 20 VOSTFR.mp4
