@@ -53,7 +53,12 @@ class AppDemo(QWidget):
         files=[]
         for file in filenames:
             for best_match in final_dict.keys():
-                files.append(final_dict[best_match][file]['new_name'])
+                print(best_match)
+                try :
+                    files.append(final_dict[best_match][file]['new_name'])
+                except:
+                    # TODO Case To handle
+                    print()
         # for best_match in final_dict.keys():
         #     logging.info(_divider)
         #     logging.info(f"Show : {best_match}")
