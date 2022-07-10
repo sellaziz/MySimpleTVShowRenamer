@@ -2,3 +2,6 @@ module/api_key.py
 module/__pycache__/*
 test_set/*
 geckodriver.log
+.vscode/settings.json
+renamer/api_key.py
+__pycache__
