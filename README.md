@@ -16,7 +16,18 @@ Simple renamer that analyze the file name and try to find the TV Show that latch
 
 ### Executing program
 
-* Currently it seek for all files in a directory that is provided in the script but new versions will have a command-line parser
+You can use the CLI for the API usage (which requires a TMDB [account](https://www.themoviedb.org/documentation/api))
+
+```bash
+python tv_rename_cli.py --filenames "<YOUR Files>" --dry-run -v # to see end result
+
+```
+
+Or use the Selenium version, which parse the TMDB website (doesn't require an API key but requires the installation of the geckodriver)
+
+Heres a screenshot of the gui flow
+
+![showcase](resources/showcase.jpg)
 
 ## License
 
